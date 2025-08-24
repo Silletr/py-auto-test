@@ -1,3 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 PyAutoEnv/
-__pycache__/ 
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Other
 .sonar/
+/py_auto_test.egg-info/ 
+/build/
