@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "-vv"
+]
+[project]
+name = "py-auto-test"
+version = "0.1.0"
+description = "Heared about 'auto-tests' what you need write? With this lib auto-tests will be exactly automatic!"
+authors = [
+    { name = "Silletr", email = "zxc0196481@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
