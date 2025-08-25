@@ -4,5 +4,5 @@
 4. - [ ] Write automatic tests for  fully automatic tests (wtf, too confusing a sentence xD)
 
 ### Image of scheme 
-Here is how i see future project (that`s not all, i will write this block-scheme in future):
-![./block-scheme/scheme_first_page.png]
+Here is how i see future project (that`s not all, i will write this block-scheme in future):  
+![block-scheme/scheme_first_page.png]
