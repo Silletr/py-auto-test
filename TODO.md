@@ -5,4 +5,4 @@
 
 ### Image of scheme 
 Here is how i see future project (that`s not all, i will write this block-scheme in future):  
-![block-scheme/scheme_first_page.png]
+[block-scheme/scheme_first_page.png](First page of scheme)
