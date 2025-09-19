@@ -1,7 +1,6 @@
 import ast
 import os
 
-
 class Analysis:
     def __init__(self, folder: str, file_extensions: str = ".py"):
         self.folder = folder
@@ -52,7 +51,13 @@ class Analysis:
 
 
 # Creating test example
-a = Analysis(".", ".py")
+directory = input("Enter which directory you wanna analyse (. for current): ")
+if directory == ".":
+    a = Analysis(".", ".py")
+else:
+    a = Analysis(directory, ".py")
+
+
 analysis_report = a.analysis()
 
 for f, data in analysis_report.items():
