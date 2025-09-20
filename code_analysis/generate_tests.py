@@ -52,7 +52,6 @@ class GenerateTests:
                 test_code += f"    result = {module_name}.{func_name}({inputs})\n"
                 test_code += f"    assert result is not None  # Basic check\n\n"
 
-            # Генерация тестов для классов
             for class_name, methods in data["classes"].items():
                 test_code += f"class Test{class_name}:\n"
                 test_code += f"    def setup_method(self):\n"
@@ -63,7 +62,6 @@ class GenerateTests:
                         test_code += f"        result = self.obj.{method}()\n"
                         test_code += f"        assert result is not None  # Basic check\n\n"
 
-            # Записываем тестовый файл
             with open(test_file, "w", encoding="utf-8") as file:
                 file.write(test_code)
             print(f"Generated test file: {test_file}")
