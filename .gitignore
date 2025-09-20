@@ -15,3 +15,4 @@ dist/
 .sonar/
 /py_auto_test.egg-info/ 
 /build/
+.coverage
