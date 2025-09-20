@@ -1,5 +1,6 @@
-# Just simply example for tests ../analysis.py
-import random
+def add(a, b):
+    return a + b
 
-num = random.randint(1, 5)
-print(num)
+class Calculator:
+    def multiply(self, x, y):
+        return x * y
