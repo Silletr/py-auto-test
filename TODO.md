@@ -1,6 +1,6 @@
 1. - [x] Write code detection
-2. - [ ] Write code analysis
-3. - [ ] Write algorithm for fully automatic tests
+2. - [x] Write code analysis
+3. - [x] Write algorithm for fully automatic tests (In process, but almost work)
 4. - [ ] Write automatic tests for  fully automatic tests (wtf, too confusing a sentence xD)
 
 ## Block Scheme
